@@ -81,6 +81,7 @@ body {
 .menu .nav-a:hover::after {
   width: 100%;
 }
+
 .menu .foto {
   display: flex;
   justify-content: center;
@@ -252,7 +253,10 @@ body {
     opacity: 0;
   }
 }
-
+.texto-habilidades{
+  margin-top: 15px;
+  color: #f4f4f4;
+}
 .habilidades {
   height: 50vh;
   display: flex;
@@ -273,6 +277,10 @@ body {
 }
 .habilidades img {
   width: 12%;
+}
+
+.certificados img{
+  margin: 0px 20px;
 }
 
 .projetos {
