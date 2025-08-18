@@ -1,7 +1,7 @@
-$color-one: #ef6321;
+$color-one: #389DE0;
 $color-two: #101010;
 $color-three: #040404;
-$color-four: #f4f4f4;
+$color-four: #E1DFE3;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -285,6 +285,10 @@ body{
         }
       }
 }
+.texto-habilidades{
+  color: #f4f4f4;
+  margin-top: 17px;
+}
 .habilidades{
   height: 50vh;
   display: flex;
@@ -306,6 +310,11 @@ body{
     width: 12%;
   }
 }
+
+.certificados img{
+  margin: 0px 20px;
+}
+
 .projetos {
   margin: 30px 0px;
   button{
@@ -352,11 +361,19 @@ body{
   background-color: black;
   border-radius: 10px;
   color: white; 
+  cursor: pointer;
+  img:hover{
+    transform: scale(1.5);
+  }
 }
 #box-two{
   background-color: #30152D;
   border-radius: 10px;
   color: white;
+  cursor: pointer;
+  img:hover{
+    transform: scale(1.5);
+  }
 }
 #box-three{
   background-color: white;
@@ -471,4 +488,20 @@ body{
       grid-template-columns: repeat(3, 1fr);
     }
   }
+}
+
+
+
+.card {
+  background: #1e1e1e;
+  color: #dcdcdc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  font-family: monospace;
+}
+
+.card a {
+  color: #4fc3f7;
+  text-decoration: none;
 }

@@ -15,7 +15,7 @@ body {
 
 .menu-white {
   background-color: #040404;
-  box-shadow: 10px 0px 13px #ef6321;
+  box-shadow: 10px 0px 13px #389DE0;
 }
 
 .menu {
@@ -28,12 +28,12 @@ body {
 .menu h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  color: #ef6321;
+  color: #389DE0;
   font-size: 42px;
   margin-bottom: 20px;
 }
 .menu h2 {
-  color: #f4f4f4;
+  color: #E1DFE3;
   background-color: #040404;
   margin-bottom: 20px;
   font-size: 25px;
@@ -42,14 +42,14 @@ body {
   overflow-x: hidden;
 }
 .menu h2::after {
-  color: #f4f4f4;
+  color: #E1DFE3;
   background-color: #040404;
   position: absolute;
   content: "";
   left: 0;
   height: 100%;
   width: 100%;
-  border-left: 3px solid #ef6321;
+  border-left: 3px solid #389DE0;
   animation: front 5s steps(10) infinite;
   overflow-x: hidden;
 }
@@ -63,7 +63,7 @@ body {
 }
 .menu .nav-a {
   text-decoration: none;
-  color: #f4f4f4;
+  color: #E1DFE3;
   font-weight: 600;
   position: relative;
   padding: 10px;
@@ -75,13 +75,12 @@ body {
   left: 0;
   width: 0;
   height: 3px;
-  background-color: #ef6321;
+  background-color: #389DE0;
   transition: all 300ms ease-in-out;
 }
 .menu .nav-a:hover::after {
   width: 100%;
 }
-
 .menu .foto {
   display: flex;
   justify-content: center;
@@ -125,13 +124,13 @@ body {
   height: 100vh;
 }
 .conteudo h1 {
-  color: #ef6321;
+  color: #389DE0;
   margin-bottom: 20px;
   font-size: 32px;
   text-align: center;
 }
 .conteudo p {
-  color: #f4f4f4;
+  color: #E1DFE3;
   font-size: 18px;
   font-weight: 600;
   line-height: 30px;
@@ -152,7 +151,7 @@ body {
   position: relative;
   width: 20px;
   height: 20px;
-  border: solid 2px #f4f4f4;
+  border: solid 2px #E1DFE3;
   border-radius: 50%;
   margin: 0 10px;
   background-color: transparent;
@@ -164,7 +163,7 @@ body {
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background-color: #ef6321;
+  background-color: #389DE0;
   animation: dot-keys var(--animation);
 }
 .conteudo .loader .circle .outline {
@@ -253,10 +252,12 @@ body {
     opacity: 0;
   }
 }
-.texto-habilidades{
-  margin-top: 15px;
+
+.texto-habilidades {
   color: #f4f4f4;
+  margin-top: 17px;
 }
+
 .habilidades {
   height: 50vh;
   display: flex;
@@ -265,7 +266,7 @@ body {
   align-items: center;
 }
 .habilidades h1 {
-  color: #ef6321;
+  color: #389DE0;
   margin-bottom: 20px;
   font-size: 32px;
   text-align: center;
@@ -279,7 +280,7 @@ body {
   width: 12%;
 }
 
-.certificados img{
+.certificados img {
   margin: 0px 20px;
 }
 
@@ -291,16 +292,16 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  border: 2px solid #ef6321;
+  border: 2px solid #389DE0;
   border-radius: 10px;
   height: 28px;
   width: 125px;
   background-color: #040404;
-  color: #ef6321;
+  color: #389DE0;
   cursor: not-allowed;
 }
 .projetos h1 {
-  color: #ef6321;
+  color: #389DE0;
   text-align: center;
   margin-bottom: 60px;
   font-size: 32px;
@@ -330,12 +331,20 @@ body {
   background-color: black;
   border-radius: 10px;
   color: white;
+  cursor: pointer;
+}
+#box-one img:hover {
+  transform: scale(1.5);
 }
 
 #box-two {
   background-color: #30152D;
   border-radius: 10px;
   color: white;
+  cursor: pointer;
+}
+#box-two img:hover {
+  transform: scale(1.5);
 }
 
 #box-three {
@@ -384,7 +393,7 @@ body {
   height: 50vh;
 }
 .contato h1 {
-  color: #ef6321;
+  color: #389DE0;
   text-align: center;
   font-size: 32px;
   margin-bottom: 40px;
@@ -394,7 +403,7 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  color: #ef6321;
+  color: #389DE0;
   text-decoration: none;
   font-size: 16px;
 }
@@ -402,7 +411,7 @@ body {
   text-decoration: underline;
 }
 .contato p {
-  color: #ef6321;
+  color: #389DE0;
   padding-left: 10px;
   font-size: 16px;
   display: flex;
@@ -441,4 +450,17 @@ body {
   .projetos .fotos-projetos {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+.card {
+  background: #1e1e1e;
+  color: #dcdcdc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  font-family: monospace;
+}
+
+.card a {
+  color: #4fc3f7;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
